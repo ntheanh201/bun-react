@@ -2,11 +2,13 @@
   "name": "bun-react",
   "version": "0.1.79",
   "dependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "web-vitals": "^3.0.3"
   },
-  "scripts":{
+  "scripts": {
     "start": "bun dev",
     "build": "react-scripts build"
   },
